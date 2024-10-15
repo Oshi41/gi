@@ -2,15 +2,27 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "injector", "injector\injector.csproj", "{9606B852-9E9B-4BE6-A52C-4688F4800BAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib", "lib\lib.csproj", "{08C8B1DC-B82A-408A-96F1-C7410A1AF15F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "managed", "managed\managed.vcxproj", "{28AB6BBB-F1C1-4165-B90D-CE9E506E2C9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9606B852-9E9B-4BE6-A52C-4688F4800BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9606B852-9E9B-4BE6-A52C-4688F4800BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9606B852-9E9B-4BE6-A52C-4688F4800BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9606B852-9E9B-4BE6-A52C-4688F4800BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9606B852-9E9B-4BE6-A52C-4688F4800BAE}.Release|x64.ActiveCfg = Release|x64
+		{9606B852-9E9B-4BE6-A52C-4688F4800BAE}.Release|x64.Build.0 = Release|x64
+		{9606B852-9E9B-4BE6-A52C-4688F4800BAE}.Debug|x64.ActiveCfg = Debug|x64
+		{9606B852-9E9B-4BE6-A52C-4688F4800BAE}.Debug|x64.Build.0 = Debug|x64
+		{08C8B1DC-B82A-408A-96F1-C7410A1AF15F}.Release|x64.ActiveCfg = Release|x64
+		{08C8B1DC-B82A-408A-96F1-C7410A1AF15F}.Release|x64.Build.0 = Release|x64
+		{08C8B1DC-B82A-408A-96F1-C7410A1AF15F}.Debug|x64.ActiveCfg = Debug|x64
+		{08C8B1DC-B82A-408A-96F1-C7410A1AF15F}.Debug|x64.Build.0 = Debug|x64
+		{28AB6BBB-F1C1-4165-B90D-CE9E506E2C9C}.Release|x64.ActiveCfg = Release|x64
+		{28AB6BBB-F1C1-4165-B90D-CE9E506E2C9C}.Release|x64.Build.0 = Release|x64
+		{28AB6BBB-F1C1-4165-B90D-CE9E506E2C9C}.Debug|x64.ActiveCfg = Debug|x64
+		{28AB6BBB-F1C1-4165-B90D-CE9E506E2C9C}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,5 @@
-﻿namespace lib
+﻿namespace lib;
+
+public class Class1
 {
-    public class Class1
-    {
-    }
 }
